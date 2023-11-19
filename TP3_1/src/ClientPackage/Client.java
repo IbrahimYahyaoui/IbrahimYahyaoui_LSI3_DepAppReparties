@@ -13,7 +13,7 @@ public class Client {
             int rep, choice = 0;
             System.out.println("I am a client not yet connected ... ");
 
-            InetAddress serverInetAddress = InetAddress.getByName("192.168.1.48");
+            InetAddress serverInetAddress = InetAddress.getByName("localhost");
             InetSocketAddress serverSocketAddress = new InetSocketAddress(serverInetAddress, 1234);
 
             Socket socket = new Socket();
